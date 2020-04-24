@@ -143,7 +143,7 @@ RUN rm get-pip.py
 RUN pip3 install cython
 
 # Add jupyterhub
-RUN pip3 install jupyterhub==1.0.0
+RUN pip3 install jupyterhub==1.0.0 notebook==6.0.3
 
 # keras
 RUN pip3 install keras==2.2.5
