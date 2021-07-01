@@ -149,7 +149,7 @@ RUN pip3 install jupyterhub==1.0.0 notebook==6.0.3
 RUN pip3 install keras==2.2.5
 
 # pytorch
-RUN pip3 install torch==1.4.0 torchvision==0.5.0
+RUN pip3 install torch==1.9.0 torchvision==0.10.0
 RUN pip3 --no-cache-dir  install --ignore-installed PyYAML \
         h5py \
         matplotlib \
